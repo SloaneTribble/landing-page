@@ -8,6 +8,13 @@ img{
     height: auto;
 }
 
+.information img {
+    max-width: 82%;
+    max-height: 90%;
+    border-radius: 25px;
+    border: 4px solid rgb(255, 199, 199);
+}
+
 .hero-img{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -68,6 +75,41 @@ img{
     border-radius: 15px;
     padding: 8px 16px;
     margin-top: 12px;
+}
+
+.info-title-container{
+    display: flex;
+    justify-content: center;
+}
+
+.info-title{
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-photos{
+    display:flex;
+    justify-content: space-around;
+}
+
+.photo-text{
+    text-align: center;
+    padding: 16px 36px;
+}
+
+.info-one,
+.info-two,
+.info-three,
+.info-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    max-width: 25%;
 }
 
 a:link{
