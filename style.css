@@ -3,9 +3,22 @@ body{
     padding: 0px;
 }
 
+img{
+    max-width: 80%;
+    height: auto;
+}
+
+.hero-img{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 40%;
+    height: auto;
+}
+
 .header{
     background-color: #1F2937;
     display: flex;
+    flex: 1;
     justify-content: space-around;
 }
 
@@ -14,6 +27,47 @@ body{
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.hero{
+    background-color: #1F2937;
+    padding-left: 60px;
+    padding-right: 32px;
+    display:flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.hero-text{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.hero-title{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 90px;
+
+}
+
+.hero-description{
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup{
+    background-color: #3882F6;
+    font-size: 20px;
+    color: #F9FAF8;
+    align-self: flex-start; /*prevent button from stretching*/
+    border: none;
+    border-radius: 15px;
+    padding: 8px 16px;
+    margin-top: 12px;
 }
 
 a:link{
