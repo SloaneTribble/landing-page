@@ -1,10 +1,30 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 img{
     max-width: 80%;
+    height: auto;
+}
+
+h2{
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero-img{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 40%;
     height: auto;
 }
 
@@ -13,13 +33,6 @@ img{
     max-height: 90%;
     border-radius: 25px;
     border: 4px solid rgb(255, 199, 199);
-}
-
-.hero-img{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    max-width: 40%;
-    height: auto;
 }
 
 .header{
@@ -77,6 +90,12 @@ img{
     margin-top: 12px;
 }
 
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .info-title-container{
     display: flex;
     justify-content: center;
@@ -90,8 +109,8 @@ img{
 }
 
 .info-photos{
-    display:flex;
-    justify-content: space-around;
+    margin: 0px 10%;
+    display: flex;
 }
 
 .photo-text{
@@ -112,8 +131,66 @@ img{
     max-width: 25%;
 }
 
-a:link{
+.quote{
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    padding: 10% 15%;
+}
+
+.quote-main{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-author{
+    align-self: flex-end;
+    margin-top: 12px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.call-to-action-box{
+    margin: 8% 12%;
+    padding: 10% 15%;
+    border-radius: 15px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.call-to-action-container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 16px;
     color: white;
+}
+
+.call-button{
+    background-color: #3882F6;
+    font-size: 20px;
+    color: #F9FAF8;
+    display: flex;
+    justify-self: flex-end; /*prevent button from stretching*/
+    align-self: center;
+    border: solid white 2px;
+    border-radius: 15px;
+    padding: 8px 16px;
+    flex-shrink: 0;
+}
+
+a:link{
+    color: rgba(255, 255, 255, 0.911);
     text-decoration: none;
 }
 
