@@ -189,6 +189,16 @@ p{
     flex-shrink: 0;
 }
 
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 32px 0px;
+    
+}
+
 a:link{
     color: rgba(255, 255, 255, 0.911);
     text-decoration: none;
